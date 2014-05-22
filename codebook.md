@@ -10,18 +10,18 @@ and 3-axial angular velocity at a constant rate of 50Hz.  Units are noted below.
 Attribute Information:
 
 For each record in the dataset it is provided: 
-- Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration. 
-- Triaxial Angular velocity from the gyroscope. 
-- A 561-feature vector with time and frequency domain variables. 
-- Its activity label. 
-- An identifier of the subject who carried out the experiment.
+* Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration. 
+* Triaxial Angular velocity from the gyroscope. 
+* A 561-feature vector with time and frequency domain variables. 
+* Its activity label. 
+* An identifier of the subject who carried out the experiment.
 
 The acceleration signal from the smartphone accelerometer X axis in standard gravity units 'g'. 
 
 Notes: 
 ======
-- Features are normalized and bounded within [-1,1].
-- Each feature vector is a row on the text file.
+* Features are normalized and bounded within [-1,1].
+* Each feature vector is a row on the text file.
 
 Reference:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
@@ -45,91 +45,91 @@ were extracted from the 561 columns provided in the larger data set per the syst
 
 The 68 columns are as follows:
 
-1. Subject (a number 1-30, for each of the 30 Subjects)
-2. Activity (one of these 6 descriptions: "Walking", "Walking Upstairs", 
+*1. Subject (a number 1-30, for each of the 30 Subjects)
+*2. Activity (one of these 6 descriptions: "Walking", "Walking Upstairs", 
 "Walking Downstairs", "Sitting", "Standing", "Laying")
-3 through 68 are these measurements, in this order: 
+*3 through 68 are these measurements, in this order: 
 
-TimeBodyAccelerationMeanX
-TimeBodyAccelerationMeanY
-TimeBodyAccelerationMeanZ
-TimeBodyAccelerationStdX
-TimeBodyAccelerationStdY
-TimeBodyAccelerationStdZ
-TimeGravityAccelerationMeanX
-TimeGravityAccelerationMeanY
-TimeGravityAccelerationMeanZ
-TimeGravityAccelerationStdX
-TimeGravityAccelerationStdY
-TimeGravityAccelerationStdZ
-TimeBodyAccelerationJerkMeanX
-TimeBodyAccelerationJerkMeanY
-TimeBodyAccelerationJerkMeanZ
-TimeBodyAccelerationJerkStdX
-TimeBodyAccelerationJerkStdY
-TimeBodyAccelerationJerkStdZ
-TimeBodyGyroscopeMeanX
-TimeBodyGyroscopeMeanY
-TimeBodyGyroscopeMeanZ
-TimeBodyGyroscopeStdX
-TimeBodyGyroscopeStdY
-TimeBodyGyroscopeStdZ
-TimeBodyGyroscopeJerkMeanX
-TimeBodyGyroscopeJerkMeanY
-TimeBodyGyroscopeJerkMeanZ
-TimeBodyGyroscopeJerkStdX
-TimeBodyGyroscopeJerkStdY
-TimeBodyGyroscopeJerkStdZ
-TimeBodyAccelerationMagnitudeMean
-TimeBodyAccelerationMagnitudeStd
-TimeGravityAccelerationMagnitudeMean
-TimeGravityAccelerationMagnitudeStd
-TimeBodyAccelerationJerkMagnitudeMean
-TimeBodyAccelerationJerkMagnitudeStd
-TimeBodyGyroscopeMagnitudeStd
-TimeBodyGyroscopeMagnitudemad
-TimeBodyGyroscopeJerkMagnitudeMean
-TimeBodyGyroscopeJerkMagnitudeStd
-FrequencyBodyAccelerationMeanX
-FrequencyBodyAccelerationMeanY
-FrequencyBodyAccelerationMeanZ
-FrequencyBodyAccelerationStdX
-FrequencyBodyAccelerationStdY
-FrequencyBodyAccelerationStdZ
-FrequencyBodyAccelerationJerkMeanX
-FrequencyBodyAccelerationJerkMeanY
-FrequencyBodyAccelerationJerkMeanZ
-FrequencyBodyAccelerationJerkStdX
-FrequencyBodyAccelerationJerkStdY
-FrequencyBodyAccelerationJerkStdZ
-FrequencyBodyGyroscopeMeanX
-FrequencyBodyGyroscopeMeanY
-FrequencyBodyGyroscopeMeanZ
-FrequencyBodyGyroscopeStdX
-FrequencyBodyGyroscopeStdY
-FrequencyBodyGyroscopeStdZ
-FrequencyBodyAccelerationMagnitudeMean
-FrequencyBodyAccelerationMagnitudeStd
-FrequencyBodyAccelerationJerkMagnitudeMean
-FrequencyBodyAccelerationJerkMagnitudeStd
-FrequencyBodyGyroscopeMagnitudeMean
-FrequencyBodyGyroscopeMagnitudeStd
-FrequencyBodyGyroscopeJerkMagnitudeMean
-FrequencyBodyGyroscopeJerkMagnitudeStd
+*TimeBodyAccelerationMeanX
+*TimeBodyAccelerationMeanY
+*TimeBodyAccelerationMeanZ
+*TimeBodyAccelerationStdX
+*TimeBodyAccelerationStdY
+*TimeBodyAccelerationStdZ
+*TimeGravityAccelerationMeanX
+*TimeGravityAccelerationMeanY
+*TimeGravityAccelerationMeanZ
+*TimeGravityAccelerationStdX
+*TimeGravityAccelerationStdY
+*TimeGravityAccelerationStdZ
+*TimeBodyAccelerationJerkMeanX
+*TimeBodyAccelerationJerkMeanY
+*TimeBodyAccelerationJerkMeanZ
+*TimeBodyAccelerationJerkStdX
+*TimeBodyAccelerationJerkStdY
+*TimeBodyAccelerationJerkStdZ
+*TimeBodyGyroscopeMeanX
+*TimeBodyGyroscopeMeanY
+*TimeBodyGyroscopeMeanZ
+*TimeBodyGyroscopeStdX
+*TimeBodyGyroscopeStdY
+*TimeBodyGyroscopeStdZ
+*TimeBodyGyroscopeJerkMeanX
+*TimeBodyGyroscopeJerkMeanY
+*TimeBodyGyroscopeJerkMeanZ
+*TimeBodyGyroscopeJerkStdX
+*TimeBodyGyroscopeJerkStdY
+*TimeBodyGyroscopeJerkStdZ
+*TimeBodyAccelerationMagnitudeMean
+*TimeBodyAccelerationMagnitudeStd
+*TimeGravityAccelerationMagnitudeMean
+*TimeGravityAccelerationMagnitudeStd
+*TimeBodyAccelerationJerkMagnitudeMean
+*TimeBodyAccelerationJerkMagnitudeStd
+*TimeBodyGyroscopeMagnitudeStd
+*TimeBodyGyroscopeMagnitudemad
+*TimeBodyGyroscopeJerkMagnitudeMean
+*TimeBodyGyroscopeJerkMagnitudeStd
+*FrequencyBodyAccelerationMeanX
+*FrequencyBodyAccelerationMeanY
+*FrequencyBodyAccelerationMeanZ
+*FrequencyBodyAccelerationStdX
+*FrequencyBodyAccelerationStdY
+*FrequencyBodyAccelerationStdZ
+*FrequencyBodyAccelerationJerkMeanX
+*FrequencyBodyAccelerationJerkMeanY
+*FrequencyBodyAccelerationJerkMeanZ
+*FrequencyBodyAccelerationJerkStdX
+*FrequencyBodyAccelerationJerkStdY
+*FrequencyBodyAccelerationJerkStdZ
+*FrequencyBodyGyroscopeMeanX
+*FrequencyBodyGyroscopeMeanY
+*FrequencyBodyGyroscopeMeanZ
+*FrequencyBodyGyroscopeStdX
+*FrequencyBodyGyroscopeStdY
+*FrequencyBodyGyroscopeStdZ
+*FrequencyBodyAccelerationMagnitudeMean
+*FrequencyBodyAccelerationMagnitudeStd
+*FrequencyBodyAccelerationJerkMagnitudeMean
+*FrequencyBodyAccelerationJerkMagnitudeStd
+*FrequencyBodyGyroscopeMagnitudeMean
+*FrequencyBodyGyroscopeMagnitudeStd
+*FrequencyBodyGyroscopeJerkMagnitudeMean
+*FrequencyBodyGyroscopeJerkMagnitudeStd
 
 Column names for columns 3-68 follow this convention:
---Frequency means Frequency domain signals via Fast Fourier Transformations
---Body means signals from the body, rather than from gravity
---Gravity means signals from gravity, rather than from the body
---Gyroscope means signals from the gyroscope
---Acceleration are signals from the accelerometer
---Magnitude is the magnitude of the signal
---Jerk means jerk signals
---Mean is the average
---Std is standard deviation
---X means in the x-axis
---Y means in the y-axis
---Z means in the z-axis
+*Frequency means Frequency domain signals via Fast Fourier Transformations
+*Body means signals from the body, rather than from gravity
+*Gravity means signals from gravity, rather than from the body
+*Gyroscope means signals from the gyroscope
+*Acceleration are signals from the accelerometer
+*Magnitude is the magnitude of the signal
+*Jerk means jerk signals
+*Mean is the average
+*Std is standard deviation
+*X means in the x-axis
+*Y means in the y-axis
+*Z means in the z-axis
 
 Note: Capitalization of initial letters in the words, and elimination of most abbreviations 
 in the columns noted above was performed to make the column names very clear and descriptive.
@@ -150,7 +150,8 @@ the script to 66 columns of Mean and Std data only, along with Subject and Activ
 68 columns.
 
 The 68 columns are the following column numbers from the 561 original:
-(1:6,41:46,81:86,121:126,161:166,201:202,214:215,227:228,241:242,253:254,266:271,345:350,
+(1:6,41:46,81:86,121:126,161:166,201:202,214:215,
+227:228,241:242,253:254,266:271,345:350,
 424:429,503:504,516:517,529:530,542:543)
 
 The R script included performs the the transformations described above to create the final data set.

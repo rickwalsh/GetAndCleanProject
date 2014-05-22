@@ -45,91 +45,91 @@ were extracted from the 561 columns provided in the larger data set per the syst
 
 The 68 columns are as follows:
 
-*1. Subject (a number 1-30, for each of the 30 Subjects)
-*2. Activity (one of these 6 descriptions: "Walking", "Walking Upstairs", 
+* 1. Subject (a number 1-30, for each of the 30 Subjects)
+* 2. Activity (one of these 6 descriptions: "Walking", "Walking Upstairs", 
 "Walking Downstairs", "Sitting", "Standing", "Laying")
-*3 through 68 are these measurements, in this order: 
+* 3 through 68 are these measurements, in this order: 
 
-*TimeBodyAccelerationMeanX
-*TimeBodyAccelerationMeanY
-*TimeBodyAccelerationMeanZ
-*TimeBodyAccelerationStdX
-*TimeBodyAccelerationStdY
-*TimeBodyAccelerationStdZ
-*TimeGravityAccelerationMeanX
-*TimeGravityAccelerationMeanY
-*TimeGravityAccelerationMeanZ
-*TimeGravityAccelerationStdX
-*TimeGravityAccelerationStdY
-*TimeGravityAccelerationStdZ
-*TimeBodyAccelerationJerkMeanX
-*TimeBodyAccelerationJerkMeanY
-*TimeBodyAccelerationJerkMeanZ
-*TimeBodyAccelerationJerkStdX
-*TimeBodyAccelerationJerkStdY
-*TimeBodyAccelerationJerkStdZ
-*TimeBodyGyroscopeMeanX
-*TimeBodyGyroscopeMeanY
-*TimeBodyGyroscopeMeanZ
-*TimeBodyGyroscopeStdX
-*TimeBodyGyroscopeStdY
-*TimeBodyGyroscopeStdZ
-*TimeBodyGyroscopeJerkMeanX
-*TimeBodyGyroscopeJerkMeanY
-*TimeBodyGyroscopeJerkMeanZ
-*TimeBodyGyroscopeJerkStdX
-*TimeBodyGyroscopeJerkStdY
-*TimeBodyGyroscopeJerkStdZ
-*TimeBodyAccelerationMagnitudeMean
-*TimeBodyAccelerationMagnitudeStd
-*TimeGravityAccelerationMagnitudeMean
-*TimeGravityAccelerationMagnitudeStd
-*TimeBodyAccelerationJerkMagnitudeMean
-*TimeBodyAccelerationJerkMagnitudeStd
-*TimeBodyGyroscopeMagnitudeStd
-*TimeBodyGyroscopeMagnitudemad
-*TimeBodyGyroscopeJerkMagnitudeMean
-*TimeBodyGyroscopeJerkMagnitudeStd
-*FrequencyBodyAccelerationMeanX
-*FrequencyBodyAccelerationMeanY
-*FrequencyBodyAccelerationMeanZ
-*FrequencyBodyAccelerationStdX
-*FrequencyBodyAccelerationStdY
-*FrequencyBodyAccelerationStdZ
-*FrequencyBodyAccelerationJerkMeanX
-*FrequencyBodyAccelerationJerkMeanY
-*FrequencyBodyAccelerationJerkMeanZ
-*FrequencyBodyAccelerationJerkStdX
-*FrequencyBodyAccelerationJerkStdY
-*FrequencyBodyAccelerationJerkStdZ
-*FrequencyBodyGyroscopeMeanX
-*FrequencyBodyGyroscopeMeanY
-*FrequencyBodyGyroscopeMeanZ
-*FrequencyBodyGyroscopeStdX
-*FrequencyBodyGyroscopeStdY
-*FrequencyBodyGyroscopeStdZ
-*FrequencyBodyAccelerationMagnitudeMean
-*FrequencyBodyAccelerationMagnitudeStd
-*FrequencyBodyAccelerationJerkMagnitudeMean
-*FrequencyBodyAccelerationJerkMagnitudeStd
-*FrequencyBodyGyroscopeMagnitudeMean
-*FrequencyBodyGyroscopeMagnitudeStd
-*FrequencyBodyGyroscopeJerkMagnitudeMean
-*FrequencyBodyGyroscopeJerkMagnitudeStd
+* TimeBodyAccelerationMeanX
+* TimeBodyAccelerationMeanY
+* TimeBodyAccelerationMeanZ
+* TimeBodyAccelerationStdX
+* TimeBodyAccelerationStdY
+* TimeBodyAccelerationStdZ
+* TimeGravityAccelerationMeanX
+* TimeGravityAccelerationMeanY
+* TimeGravityAccelerationMeanZ
+* TimeGravityAccelerationStdX
+* TimeGravityAccelerationStdY
+* TimeGravityAccelerationStdZ
+* TimeBodyAccelerationJerkMeanX
+* TimeBodyAccelerationJerkMeanY
+* TimeBodyAccelerationJerkMeanZ
+* TimeBodyAccelerationJerkStdX
+* TimeBodyAccelerationJerkStdY
+* TimeBodyAccelerationJerkStdZ
+* TimeBodyGyroscopeMeanX
+* TimeBodyGyroscopeMeanY
+* TimeBodyGyroscopeMeanZ
+* TimeBodyGyroscopeStdX
+* TimeBodyGyroscopeStdY
+* TimeBodyGyroscopeStdZ
+* TimeBodyGyroscopeJerkMeanX
+* TimeBodyGyroscopeJerkMeanY
+* TimeBodyGyroscopeJerkMeanZ
+* TimeBodyGyroscopeJerkStdX
+* TimeBodyGyroscopeJerkStdY
+* TimeBodyGyroscopeJerkStdZ
+* TimeBodyAccelerationMagnitudeMean
+* TimeBodyAccelerationMagnitudeStd
+* TimeGravityAccelerationMagnitudeMean
+* TimeGravityAccelerationMagnitudeStd
+* TimeBodyAccelerationJerkMagnitudeMean
+* TimeBodyAccelerationJerkMagnitudeStd
+* TimeBodyGyroscopeMagnitudeStd
+* TimeBodyGyroscopeMagnitudemad
+* TimeBodyGyroscopeJerkMagnitudeMean
+* TimeBodyGyroscopeJerkMagnitudeStd
+* FrequencyBodyAccelerationMeanX
+* FrequencyBodyAccelerationMeanY
+* FrequencyBodyAccelerationMeanZ
+* FrequencyBodyAccelerationStdX
+* FrequencyBodyAccelerationStdY
+* FrequencyBodyAccelerationStdZ
+* FrequencyBodyAccelerationJerkMeanX
+* FrequencyBodyAccelerationJerkMeanY
+* FrequencyBodyAccelerationJerkMeanZ
+* FrequencyBodyAccelerationJerkStdX
+* FrequencyBodyAccelerationJerkStdY
+* FrequencyBodyAccelerationJerkStdZ
+* FrequencyBodyGyroscopeMeanX
+* FrequencyBodyGyroscopeMeanY
+* FrequencyBodyGyroscopeMeanZ
+* FrequencyBodyGyroscopeStdX
+* FrequencyBodyGyroscopeStdY
+* FrequencyBodyGyroscopeStdZ
+* FrequencyBodyAccelerationMagnitudeMean
+* FrequencyBodyAccelerationMagnitudeStd
+* FrequencyBodyAccelerationJerkMagnitudeMean
+* FrequencyBodyAccelerationJerkMagnitudeStd
+* FrequencyBodyGyroscopeMagnitudeMean
+* FrequencyBodyGyroscopeMagnitudeStd
+* FrequencyBodyGyroscopeJerkMagnitudeMean
+* FrequencyBodyGyroscopeJerkMagnitudeStd
 
 Column names for columns 3-68 follow this convention:
-*Frequency means Frequency domain signals via Fast Fourier Transformations
-*Body means signals from the body, rather than from gravity
-*Gravity means signals from gravity, rather than from the body
-*Gyroscope means signals from the gyroscope
-*Acceleration are signals from the accelerometer
-*Magnitude is the magnitude of the signal
-*Jerk means jerk signals
-*Mean is the average
-*Std is standard deviation
-*X means in the x-axis
-*Y means in the y-axis
-*Z means in the z-axis
+* Frequency means Frequency domain signals via Fast Fourier Transformations
+* Body means signals from the body, rather than from gravity
+* Gravity means signals from gravity, rather than from the body
+* Gyroscope means signals from the gyroscope
+* Acceleration are signals from the accelerometer
+* Magnitude is the magnitude of the signal
+* Jerk means jerk signals
+* Mean is the average
+* Std is standard deviation
+* X means in the x-axis
+* Y means in the y-axis
+* Z means in the z-axis
 
 Note: Capitalization of initial letters in the words, and elimination of most abbreviations 
 in the columns noted above was performed to make the column names very clear and descriptive.

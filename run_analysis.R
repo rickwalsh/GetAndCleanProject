@@ -84,21 +84,17 @@ dtMeanStd<- data.table(dfMeanStd)
 ## rolling up by Subject and Activity
 dtFinalSet<-dtMeanStd[,lapply(.SD,mean),by="Subject,Activity",.SDcols=3:68]
 
-dfFinalSet <- data.frame(dtFinalSet)
-x<-dfFinalSet[with(dfFinalSet, order(Subject, Activity)),]
-
 ## set data table to data frame for easy sorting
 ## then sort by Subject, Activity
 dfOrder <- data.frame(dtFinalSet)
 dfOrder<-dfOrder[with(dfOrder, order(Subject, Activity)),]
 
-## not set back to data table for writing
+## now set back to data table for writing
 dtFinalSet <- data.table(dfOrder)
 
 ## write the data with column header, but not row number, to set5.txt as tab-delimited file
 write.table(dtFinalSet, "set5.txt", sep="\t", row.names = F, col.names = T)
 
 ## done
-## read it back to verify (commented out in final version)
 
 

@@ -133,6 +133,9 @@ Column names for columns 3-68 follow this convention:
 
 Note: Capitalization of initial letters in the words, and elimination of most abbreviations 
 in the columns noted above was performed to make the column names very clear and descriptive.
+(The course materials discuss BOTH capitalizing first letters as well as using all lower
+case.  For this circumstance, due to length of column names, initial capitals are used
+intentinonally for readability).
 
 ## C. Transformations
 
